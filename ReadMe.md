@@ -10,6 +10,7 @@ The graph data structure is a fundamental construct used extensively in computer
 
 - `Vertex.hpp`: Header file for the Vertex class representing nodes in the graph.
 - `Edge.hpp`: Header file for the Edge class representing weighted edges between nodes.
+-  `Edge.cpp`: Implemntation File for Edge class.
 - `Graph.hpp`: Header file for the Graph class that encapsulates the graph logic.
 - `Graph.cpp`: Implementation file for the Graph class.
 - `GraphBase.hpp`: Abstract base class that defines the graph interface.
@@ -45,4 +46,4 @@ The `shortestPath` method in the `Graph` class implements Dijkstra's algorithm. 
 Compile the code with a C++ compiler supporting C++11 or later. The following is an example of how you might compile the code with `g++`:
 
 ```sh
-g++ -std=c++11 -o graph_program Graph.cpp main.cpp
+g++ -std=c++11 -Wall *.cpp
