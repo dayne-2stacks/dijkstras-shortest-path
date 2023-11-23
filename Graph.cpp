@@ -112,8 +112,7 @@ unsigned long Graph::shortestPath(std::string startLabel, std::string endLabel, 
         distances[pair.second] = (pair.first == startLabel) ? 0 : std::numeric_limits<unsigned long>::max();
         queue.push(pair.second);
     }
-
-    Vertex* startVertex = vertices[startLabel];
+    
     Vertex* endVertex = vertices[endLabel];
 
     // Algorithm execution
